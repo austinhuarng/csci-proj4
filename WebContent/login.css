@@ -1,0 +1,119 @@
+@CHARSET "BIG5";
+@font-face {
+  font-family: 'fa 1';
+  src: url('fontawesome-webfont.woff2') format('woff2');
+}
+.headerbar{
+	margin-top: 3vh;
+	height: 10vh;
+	position: relative;
+	display: flex;
+	margin-bottom: 3vh;
+}
+.alignleft {
+	margin-top: 0px;
+	margin-left: 10vw;
+	margin-right: auto;
+	float: left;
+	font-size: 7vh;
+	color: #990000;
+}
+h1{
+	color: grey;
+	font-weight: normal;
+}
+a{
+text-decoration: none;
+color: #990000;
+}
+
+a:visited{
+text-decoration: none;
+color: #990000;
+}
+.alignright {
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: 10vw;
+	font-size: 2.4vh;
+	float: right;
+	font-family:'fa 1', sans-serif;
+}
+.some-page-wrapper {
+  margin: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: 'fa 1', sans-serif;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.blue-column {
+  height: 50vh;
+  justify-content: center;
+}
+
+.green-column {
+  height: 50vh;
+  align-items: center;
+}
+
+form{
+	justify-content: center;
+}
+.input-element{
+	height: 25px !important;
+	width: 99%;
+	font-size: 95%;
+	border-width: 1px;
+	border-radius: 3px;
+	font-family:'fa 1', sans-serif;
+	border-width: thin;
+	margin-top: 8px;
+}
+.input-element-button{
+	height: 40px !important;
+	width: 99%;
+	font-size: 95%;
+	border-width: 1px;
+	border-radius: 9px;
+	font-family:'fa 1', sans-serif;
+	background-color: #990000;
+	color: white;
+}
+.check{
+ width: 13px;
+  height: 13px;
+  padding: 0;
+  margin:0;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+  *overflow: hidden;
+}
+.label{
+	margin-bottom: 0;
+	display: inline-block;
+}
+.gsi-button{
+	height: 40px !important;
+	width: 99%;
+	font-size: 95%;
+	border-width: 1px;
+	border-radius: 9px;
+	font-family:'fa 1', sans-serif;
+	background-color: #4285F4;
+	color: white;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="austinhu_CSCI201L_Assignment4">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="mysql-connector-java-8.0.19.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/austinhu_CSCI201L_Assignment4/mysql-connector-java-8.0.19.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="json-simple-1.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/austinhu_CSCI201L_Assignment4/json-simple-1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/austinhu_CSCI201L_Assignment4/build/classes"/>
+        <property name="context-root" value="austinhu_CSCI201L_Assignment4"/>
+    </wb-module>
+</project-modules>

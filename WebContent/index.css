@@ -1,0 +1,255 @@
+@CHARSET "BIG5";
+@font-face {
+  font-family: 'fa 1';
+  src: url('fontawesome-webfont.woff2') format('woff2');
+}
+.headerbar{
+	margin-top: 3vh;
+	height: 10vh;
+	position: relative;
+	display: flex;
+	margin-bottom: 3vh;
+}
+.alignleft {
+	margin-top: 0px;
+	margin-left: 10vw;
+	margin-right: auto;
+	float: left;
+	font-size: 7vh;
+	color: #990000;
+}
+a{
+text-decoration: none;
+color: #990000;
+}
+
+a:visited{
+text-decoration: none;
+color: #990000;
+}
+.alignright {
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: 10vw;
+	font-size: 2.4vh;
+	float: right;
+	font-family:'fa 1', helvetica;
+}
+.salmon{
+	width: 81%;
+	border-radius: 25px;
+}
+.flex-container {
+	margin-left: 10vw;
+	margin-right: 10vw;
+  display: flex;
+  flex-wrap: wrap;                   
+  justify-content: space-between;    
+  align-items: stretch;    
+  margin-bottom: 0;         
+                                          
+}
+form{
+	 margin:0px; padding:0px; display:inline;
+}
+.flex-left {
+  flex-basis: 66%;               
+  padding: 10px;
+  box-sizing: border-box;
+  font-family:'fa 1', sans-serif;
+}
+.flex-right{
+	flex-basis: 10%;
+	padding: 10px;
+	text-align: center;
+	align-items: center;
+	font-family:'fa 1', helvetica;
+}
+.input-element{
+	height: 25px !important;
+	width: 90%;
+	font-size: 95%;
+	border-width: 1px;
+	border-radius: 3px;
+	font-family:'fa 1', helvetica;
+}
+.submit-icon{
+	border-radius: 3px;
+	margin-right: 0px;
+	margin-left: 35px;
+	background-color: #990000;
+	border: none;
+	height: 30px !important;
+	width: 5%;
+	color: white;
+}
+.flex-bottom{
+	flex-basis: 31%;
+	padding: 10px;
+	margin-left: 0;
+	margin-right: 0;
+	font-family:'fa 1', helvetica;
+}
+.input-coord{
+	height: 25px !important;
+	width: 100%;
+	font-size: 95%;
+	border-width: 1px;
+	border-radius: 3px;
+	font-family:'fa 1', helvetica;
+}
+.googlebutton{
+	align-items: center;
+	height: 30px !important;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	background-color: #4285F4;
+	font-family:'fa 1', sans-serif;
+	text-align: center;
+	vertical-align: middle;
+}
+.overlay{
+	background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+}
+.container-box {
+   background-color:rgba(0,0,0,0.5);
+   top: 0;
+   left: 0;
+   width:100vw;
+   height: 100vh;
+   position: fixed;
+   display: none;
+}
+.topmargin{
+	top: 0;
+	left: 0;
+	height: 25%;
+	background-color: green;
+	width: 100%;
+	color: green;
+}
+.mapbutton{
+	float: right;
+	margin-right: 10vw;
+	margin-top: -4.2vh;
+	height: 10px;
+	width: 25vw;	
+}
+.results-header{
+	margin-top: 0;
+	font-size: 3.5vh;
+	font-family: helvetica;
+	color: #808080;
+}
+.square {
+    height: 300px;
+    width: 300px;
+}
+.restaurantpic {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+tr.break td {
+  height: 10vh;
+}
+.deets{
+	margin-top: 0;
+	top:0;
+	font-size: 2.3vh;
+	font-family: helvetica;
+	color: grey;
+	margin-left: 50px;
+	margin-right: 12vw;
+}
+.favbutton{
+	background-color: #FFCC00;
+	color: grey;
+    display: block;
+    margin-left: 11vw;
+    padding-bottom: 10px;
+    padding-top: 8px;
+    width: 80%;
+    border-radius: 5px;
+    font-family:'fa 1', sans-serif;
+    font-size: 20px;
+    border: none;
+}
+.resbutton{
+	background-color: #990000;
+	color: white;
+    display: block;
+    margin-left: 11vw;
+    padding-bottom: 10px;
+    padding-top: 8px;
+    width: 80%;
+    border-radius: 5px;
+    font-family:'fa 1', sans-serif;
+    font-size: 20px;
+    border: none;
+}
+.resdate{
+	display: inline;
+}
+.restime{
+	display: inline;
+}
+#booking {
+	width: 100%; 
+	text-align: center;
+	vertical-align: middle;
+	display: none;
+}
+.insidebookingdiv{
+	width: 100%;
+	margin-left:2vw;
+	vertical-align: middle;
+	text-align: center;
+}
+#resdate{
+	width: 37vw;
+	height: 1.8vh;
+	padding: 10px;
+	margin-right: 30px;
+	border-radius: 5px;
+	border-width: .5px;
+}
+#restime{
+	width: 37vw;
+	height: 1.8vh;
+	padding: 10px;
+	margin-right: 30px;
+	border-radius: 5px;
+	border-width:.5px;
+}
+#notes{
+	width:78vw;
+	height: 10vh;
+	margin-left: 3vw;
+	border-radius: 5px;
+	resize: none;
+	font-family: helvetica;
+	font-size: 15px;
+}
+.logoutbttn {
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    font-size: 95%;
+}
+select{
+	font-family: 'fa 1', helvetica;
+	content: "\f061";
+}
+option{
+	font-family: 'fa 1';
+	content: "\f061";
+}
